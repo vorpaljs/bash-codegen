@@ -12,7 +12,7 @@ npm install bash-codegen
 
 ## Usage
 
-```
+```javascript
 const codegen = require('bash-codegen');
 
 const parsed = codegen(ast).commands.map((code) => {
