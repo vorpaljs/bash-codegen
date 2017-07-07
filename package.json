@@ -1,0 +1,30 @@
+{
+  "name": "bash-codegen",
+  "version": "0.0.0",
+  "description": "turn bash AST back into code",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "tape test/**.js | tap-diff",
+    "coverage": "tap test/**.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vorpaljs/bash-codegen.git"
+  },
+  "author": "Gabriel J. Csapo <gabecsapo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vorpaljs/bash-codegen/issues"
+  },
+  "homepage": "https://github.com/vorpaljs/bash-codegen#readme",
+  "devDependencies": {
+    "bash-parser": "^0.5.0",
+    "eslint": "^4.1.1",
+    "tap": "^10.7.0",
+    "tape": "^4.7.0"
+  },
+  "dependencies": {
+    "bash-ast-traverser": "^0.5.0"
+  }
+}
