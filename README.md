@@ -12,6 +12,8 @@ npm install bash-codegen
 
 ## Usage
 
+> `bash-codegen` will directly edit the AST, to get the bash representation of the AST node, access the source property. 
+
 ```javascript
 const codegen = require('bash-codegen');
 
